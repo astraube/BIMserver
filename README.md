@@ -6,7 +6,7 @@ sudo apt-get install openjdk-8-jdk
 sudo apt-get install openjdk-8-jre-headless wget unzip
 
 - verificar versao do java instalado
-java -version
+- java -version
 
 sudo groupadd tomcat
 sudo mkdir /opt/tomcat
