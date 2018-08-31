@@ -1,5 +1,5 @@
 # Instalação Bimserver
-
+``` bash
 sudo apt-get update
 sudo apt-get upgrade
 sudo apt-get install openjdk-8-jdk
@@ -89,6 +89,9 @@ sudo wget https://github.com/opensourceBIM/BIMserver/releases/download/v1.5.101/
 sudo chown tomcat ROOT.war
 sudo systemctl daemon-reload
 sudo systemctl restart tomcat
+
+```
+
 
 BIMserver
 =========
