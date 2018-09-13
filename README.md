@@ -34,7 +34,7 @@ sudo chown -R tomcat webapps/ work/ temp/ logs/
 - execute o comando a seguir e copie o conteudo que irá  aparecer
 - sudo update-java-alternatives -l
 
-- substituir a variavel "Environment=JAVA_HOM" pelo valor que o comando anterior apresentou
+- substituir a variavel "Environment=JAVA_HOME" pelo valor que o comando anterior apresentou
 - EX: /usr/lib/jvm/java-1.8.0-openjdk-amd64/jre
 
 ``` bash
