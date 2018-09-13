@@ -16,9 +16,9 @@ sudo groupadd tomcat
 sudo mkdir /opt/tomcat
 sudo useradd -s /bin/false -g tomcat -d /opt/tomcat tomcat
 cd /tmp
-curl -O http://apache.mirrors.ionfish.org/tomcat/tomcat-8/v8.5.33/bin/apache-tomcat-8.5.33.tar.gz
-sudo tar xzvf apache-tomcat-8.5.33.tar.gz -C /opt/tomcat --strip-components=1
-rm apache-tomcat-8.5.33.tar.gz
+curl -O http://apache.mirrors.ionfish.org/tomcat/tomcat-8/v8.5.34/bin/apache-tomcat-8.5.34.tar.gz
+sudo tar xzvf apache-tomcat-8.5.34.tar.gz -C /opt/tomcat --strip-components=1
+rm apache-tomcat-8.5.34.tar.gz
 ```
 
 - caso o apache nao seja descompactado corretamente, corrigir o URL de download com a ultima versão do repositprio
